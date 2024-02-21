@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color: aqua;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+    background-image:url(https://www.shutterstock.com/shutterstock/photos/2180966313/display_1500/stock-photo-hot-temperature-thermometer-on-yellow-sky-with-sun-shining-in-summer-show-higher-weather-concept-2180966313.jpg )
+}
+#container{
+    align-items:center;
+    padding:100px;  
+}
+label{
+    font-weight: bolder;
+    display:block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color:rgb(235, 60, 12);
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 20px white;
+    
+}
+input{
+    border-radius: 30px;
+    height:30px;
+    width: 300px;
+    border: none;
+    padding:10px;
+    color:brown;
+    font-weight: bolder;
+    font-style: italic;
+    box-shadow: 1px 1px 20px rgb(56, 36, 133);
+}
+button{
+    height: 40px;
+    padding:10px;
+    border-radius: 30px;
+    color:azure;
+    border:none;
+    font-weight: bold;
+    margin-left:20px;
+    box-shadow: 0px 0px 20px rgb(100, 141,60) ;
+    background-color: rgb(100, 141, 60);
+}    
+button:hover{
+    background-color: rgb(29, 54, 5);
+}
+#result{
+    font-weight: bolder;
+    font-style: italic;
+    color:rgb(237, 12, 177);
+    padding: 30px;
+    margin-top:40px;
+    text-align: center;
+    font-size: larger;
+}
